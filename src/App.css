@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background-color: rgb(243, 106, 9);
+  width:50%;
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20%;
+}
+#input{
+  background-color:lightblue;
+  width: 50%;
+  font-size: large;
+  border-radius: 5px;
+  text-align: center;
+  color: blue;
+
+}
+#button{
+  display: inline-block;
+  background-color: crimson;
+  padding: 0.5%;
+  width: 5%;
+  margin-left: 1%;
+  border-radius: 50%;
+  color: bisque;
+  border: black solid 2px;
+}
+
+#row{
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  font-weight: bold;
+}
+#des{
+  background-color: #282c34;
+  width:50%;
+  padding:0%;
+  
+}
+#complete{
+  display: inline-block;
+  background-color: rgb(129, 129, 180);
+  width:20%;
+  padding: 0%;
+}
+#action{
+  height: 50%;
+  width: 10%;
+  background-color: blue;
+}
+#image{
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  height: 80%;
+  padding: 0;
+}
+
+#edit{
+  background-color:lightblue;
+  width: 80%;
+  font-size: small;
+  border-radius: 5px;
+  text-align: center;
+  color: blue;
+}
+
+#but{
+  background-color: crimson;
+  border: rgb(26, 5, 9) solid 1%;
+  border-radius: 20%;
+}
+
+#img{
+  position: relative;
+  display:inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
